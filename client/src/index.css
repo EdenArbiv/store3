@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+
+.prod{
+  margin: 2%;
+}
+
+.cart{
+  text-align: center;
+  padding: 5% 28%;
+}
+
+.row{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 1px solid silver;
+  border-radius: 10px;
+  text-align: center;
+  padding: 0 10%;
+  
+}
+
+.hover :hover {
+  cursor: pointer;
+}
+.hover{
+  margin: 2%;
+}
+
+.addprod{
+  margin-left: 35%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.addprod > input,button{
+  width: 35%;
+  margin: 1%;
+}
